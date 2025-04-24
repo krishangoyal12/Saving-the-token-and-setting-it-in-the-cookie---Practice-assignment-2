@@ -1,8 +1,13 @@
 {
   "scripts": {
-    "start": "servor --reload"
+    "start": "servor --reload",
+    "test": "jest"
   },
   "dependencies": {
+    "jsonwebtoken": "^9.0.2",
     "servor": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
